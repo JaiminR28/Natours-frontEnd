@@ -4,6 +4,8 @@ New Elements learned
 2 -> clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 3 -> background-position: top;
 4 -> animation-fill-mode: backwards;
+5 -> calc
+6 -> float: left or right
 
 */
 
@@ -19,5 +21,5 @@ New Elements learned
 @import 'components/button';
 
 @import 'layout/header';
-
+@import 'layout/grid';
 @import 'pages/home';
