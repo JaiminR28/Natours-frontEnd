@@ -6,6 +6,8 @@ New Elements learned
 4 -> animation-fill-mode: backwards;
 5 -> calc
 6 -> float: left or right
+7-> backface visibilty: hidden // hides the back side of the element
+8-> perspective : 150rem higher is better.
 
 */
 
@@ -21,6 +23,7 @@ New Elements learned
 @import 'components/button';
 @import 'components/composition';
 @import 'components/featureBox';
+@import 'components/card';
 
 @import 'layout/header';
 @import 'layout/grid';
