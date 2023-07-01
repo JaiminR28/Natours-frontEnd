@@ -4,10 +4,18 @@ New Elements learned
 2 -> clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 3 -> background-position: top;
 4 -> animation-fill-mode: backwards;
-5 -> calc
-6 -> float: left or right
+5 -> calc   /// do some calculations
+6 -> float: left or right // sets the element to the left of the div
 7-> backface visibilty: hidden // hides the back side of the element
 8-> perspective : 150rem higher is better.
+9-> box-decoration-break: clone;
+10 -> 
+    & > * {
+        transform: skewY(7deg);  // Immediate childs of the parent element
+    }
+
+    11 -> shape-outside: circle();
+
 
 */
 
@@ -24,6 +32,8 @@ New Elements learned
 @import 'components/composition';
 @import 'components/featureBox';
 @import 'components/card';
+@import 'components/stories';
+@import 'components/bg-video';
 
 @import 'layout/header';
 @import 'layout/grid';
