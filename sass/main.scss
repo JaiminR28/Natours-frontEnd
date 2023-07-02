@@ -16,6 +16,10 @@ New Elements learned
 
     11 -> shape-outside: circle();
 
+    12 -> :focus:invalid {}             // If the form has invalid input let say for email or password
+    13 -> ::-webkit-input-placeholder    // styling the placeholder
+    14 -> :placeholder-shown       // when the placeholder is shown
+
 
 */
 
@@ -34,6 +38,7 @@ New Elements learned
 @import 'components/card';
 @import 'components/stories';
 @import 'components/bg-video';
+@import 'components/form';
 
 @import 'layout/header';
 @import 'layout/grid';
